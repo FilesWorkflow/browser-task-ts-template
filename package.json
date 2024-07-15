@@ -1,0 +1,28 @@
+{
+  "name": "browser-task-template-ts",
+  "version": "1.0.0",
+  "description": "",
+  "taskConfig": {
+    "name": "Browser-side task development template",
+    "description": "",
+    "runOnServer": false,
+    "inputType": 0,
+    "params": [],
+    "supportFileTypes": []
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --config webpack.config.js --mode development",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.2",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
